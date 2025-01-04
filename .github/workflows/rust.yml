@@ -45,6 +45,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.build.outputs.upload_url }} # This pulls from the create release job
-          asset_path: target/release/<your_binary_name> # Replace with your binary name
+          asset_path: target/release/minigrep.exe # Replace with your binary name
           asset_name: <your_binary_name>-linux-amd64 # Replace with your binary name and OS
           asset_content_type: application/octet-stream
