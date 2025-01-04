@@ -161,8 +161,8 @@ Feel free to submit issues and pull requests.
 
 ## License
 
-[Your chosen license]
+[MIT]
 
 ## Author
 
-[Your name/organization]
+[fox5352]christopher vos
